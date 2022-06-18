@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+
+
+.infobox{
+    position: absolute;
+    background: rgba(0, 0, 0, 0.56);
+    height: 100vh;
+    width: 100vw;
+    top: 50;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .info-box-content-container{
+    width: 27vw;
+    height: 30vw;
+    border-radius: 2vw;
+    background-color: #eeeeee;
+    position: relative;
+    box-shadow: none;
+
+  }
+  .info-box-content-container:hover{
+    right: 2px;
+    bottom: 2px;
+    box-shadow: 5px 10px 10px black;
+  }
+
+  .close-infobox{
+    position: absolute;
+    right: 1.5vw;
+    top: 2vh;
+    cursor: pointer;
+    font-size: 1.5em;
+  }
+  .close-infobox:hover{
+    color: red;
+  }
+  .top-text{
+    margin: 5vh;
+    font-size: 2em;
+    border-bottom: 2px solid #FFD403;
+    padding-bottom: 1em;
+  }
+  .infobox-text{
+    margin: 5vh;
+    font-size: 1.5em;
+  }

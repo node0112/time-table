@@ -1,0 +1,16 @@
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4vh;
+    font-size: 1.2em;
+}
+
+.footer >div> a{
+    color: rgb(171, 127, 62);
+    transition: all 0.5s;
+}
+
+.footer >div> a:hover{
+    color: #ff964f;
+}
